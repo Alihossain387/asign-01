@@ -116,3 +116,54 @@ margin: 10px 340px 10px 120px;
  margin-top: 30px;
  font-weight: 600;
 }
+.bestoffer{
+ width: 1320px;
+ height: 500px;
+ margin: 50px;
+}
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+
+.left h6{
+color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.left h1{
+ margin-top: 10px;
+color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.left p{
+margin-top: 10px;
+color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+width: 393px;
+}
+.middle{
+ border: 15px solid #F00;
+ border-radius: 50%;
+ padding: 15px;
+ width: 393px;
+}
+.right h1{
+ color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.right p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
