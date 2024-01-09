@@ -137,7 +137,6 @@ font-weight: 500;
 color: #070211;
 font-size: 48px;
 font-weight: 900;
-text-transform: capitalize;
 }
 .left p{
 margin-top: 10px;
@@ -166,4 +165,183 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
+}
+.holidays{
+ width: 1320px;
+ height: 500px;
+ margin: 50px;
+}
+.section-heading h6{
+ color: #070211;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section-heading h1{
+color: #070211;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.discount {
+color: #F00;
+text-align: center;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.section-heading p{
+color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+width: 1068px;
+}
+.section-heading{
+ text-align: center;
+}
+/*.holidays{
+}
+.section-image{
+ border: 1px black solid;
+ display: flex;
+ width: 1320px;
+ height: 500px;
+ padding: 50px;
+}*/
+
+/* style for section portfolio*/
+.portfolio{
+ width: 1320px;
+ height: 920px;
+ margin: 50px;
+}
+.box h6{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box h1{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.box p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+}
+.image-area{
+ margin-top: 15px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+.single{
+ width: 420px;
+ height: 300px;
+ border-radius: 16px;
+ padding: 10px;
+}
+/* style for subscribe*/
+.subscribe{
+width: 1320px;
+height: 500px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 50px;
+}
+.newsletter{
+ text-align: center;
+ padding: 50px;
+}
+.email{
+
+}
+.subscribe h1{
+ color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+padding: 10px;
+}
+.subscribe p{
+ color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+
+padding: 10px;
+}
+.btn{
+ width: 648px;
+height: 72px;
+flex-shrink: 0;
+}
+
+/* style for footer*/
+.footer-column {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 50px;
+ color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+footer{
+ background: #070211;
+ width: 1320px;
+ margin: 50px;
+ height: 500px;
+}
+
+.middle-2{
+display: flex;
+justify-content: center;
+margin: 40px;
+}
+hr{
+max-width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+border: none;
+margin: 50px;
+}
+.last{
+ color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin: 50px;
 }
